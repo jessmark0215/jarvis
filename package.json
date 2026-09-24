@@ -1,0 +1,15 @@
+{
+  "name": "jarvis-relay-server",
+  "version": "1.0.0",
+  "description": "Relay server that connects your Jarvis devices (Windows app, mobile app) from anywhere.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
